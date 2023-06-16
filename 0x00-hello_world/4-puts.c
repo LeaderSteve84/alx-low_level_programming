@@ -5,6 +5,6 @@ nclude < stdio.h >
 */
 int main(void)
 {
-	puts("\"programming is like building a muitilingual puzzle\n");
+	puts("\"Programming is like building a muitilingual puzzle\n");
 	return (0);
 }
