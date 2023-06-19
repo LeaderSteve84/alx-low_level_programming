@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int i = '0';
+	int i = '1';
 	int j = '0';
 
 	while (i <= '8')
