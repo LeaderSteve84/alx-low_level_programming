@@ -6,9 +6,9 @@
 int main(void)
 {
 	int i = '0';
-	int j = '1';
+	int j = '0';
 
-	while(i <= '9')
+	while (i <= '9')
 	{
 		while (j <= '9')
 		{
@@ -28,7 +28,7 @@ int main(void)
 			}
 			j++;
 		}
-		j = '1';
+		j = '0';
 		i++;
 	}
 return (0);
