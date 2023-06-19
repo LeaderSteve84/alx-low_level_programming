@@ -28,8 +28,7 @@ int main(void)
 			}
 			j++;
 		}
-		j = i + 1;
-		i++;
+		j = ++i + 1;
 	}
 return (0);
 }
