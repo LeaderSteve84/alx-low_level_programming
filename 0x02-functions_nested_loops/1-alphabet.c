@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * main - entry point
- * Return: 0 (success)
+ * print_alphabet - make the alphabet
+ * Return: void
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a'; ch <= '2'; ch++)
-		_putchar(ch);
+	for (c = 'a'; c <= '2'; c++)
+	{
+		_putchar(c);
+	}
 	_putchar('\n');
 }
