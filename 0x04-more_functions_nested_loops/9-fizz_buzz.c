@@ -29,9 +29,7 @@ int main(void)
 
 		printf(" ");
 
-		else
-
-		printf("\n");
 	}
-	return (0);
+		printf("\n");
+		return (0);
 }
