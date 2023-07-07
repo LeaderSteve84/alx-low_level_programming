@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - a function that print  my goal my goal at the
- * end of the day.
+ * main - a function that print my goal at the end of the day.
  *Return: 0 (success)
  */
 
