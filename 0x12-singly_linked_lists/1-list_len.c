@@ -11,12 +11,12 @@
 
 size_t list_len(const list_t *h)
 {
-	size_t count = 0;
+	size_t nodes_num = 0;/* initialization of size_t of nodes */
 
-	while (h)
+	while (h != NULL)
 	{
-		h = h->next;
-		count++;
+		h = h->next; /*iterate through the nodes */
+		nodes_num++; /* node number s captured */
 	}
-	return (count);
+	return (nodes_num);
 }
