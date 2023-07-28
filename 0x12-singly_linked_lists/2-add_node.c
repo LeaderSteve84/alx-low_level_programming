@@ -12,20 +12,21 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *temp;
+	list_t *current;
 	int length = 0;
+	/*memory allocation to the declare variable 'current'*/
+	current = malloc(sizeof(list_t));
+	/* check if memory allocation is successful */
+	if (current == NULL)
+		return (NULL);
 
-	temp = malloc(sizeof(list_t));
-
-	if (temp == NULL)
-	return (NULL);
-
-	while (str[length])
+	while (str[length] != '\0')
 		length++;
 
-	temp->len = length;
-	temp->str = strdup(str);
-	temp->next = *head;
-	*head = temp;
-	return (temp);
+	current->len = length;
+	current->str = strdup(str);
+	current->next = *head; /*address in head is assigned to current*/
+	*head = current; /* head is reassigned the address of current*/
+
+	return (current);
 }
