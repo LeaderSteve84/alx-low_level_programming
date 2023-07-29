@@ -8,8 +8,9 @@
  */
 void free_list(list_t *head)
 {
+	/*declaration of variable*/
 	list_t *current_node;
-
+	/*assigning head to current node in a conditional statement */
 	while ((current_node = head) != NULL)
 	{
 		head = head->next;
