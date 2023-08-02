@@ -10,11 +10,18 @@ int pop_listint(listint_t **head)
 	int head_node_data;
 	listint_t *head_node;
 
+	{
+		if (head == NULL || *head == NULL)
+		{
+			return (0); /* Return 0 if the list is empty*/
+		}
+
 	head_node = *head;/* store the head_node */
 	head_node_data = head_node->n;/*store the data from the head_node*/
 	/*update the *head to the addree of the next node*/
 	*head = head_node->next;
 	/*delete the head node and return it data*/
 	free(head_node);
+	}
 	return (head_node_data);
 }
