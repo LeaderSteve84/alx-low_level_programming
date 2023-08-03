@@ -9,5 +9,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 #include <stddef.h>
 int _putchar(char c);
 #include <stdio.h>
+int get_endianness(void);
 
 #endif
