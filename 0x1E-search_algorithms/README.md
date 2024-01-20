@@ -8,12 +8,13 @@
 ### Resources
 Read or watch:
 
-Search algorithm
-Space complexity (1)
-Learning Objectives
+<li><a href="https://en.wikipedia.org/wiki/Search_algorithm">Search algorithm</a></li>
+<li><a href="https://www.geeksforgeeks.org/g-fact-86/">Space complexity (1)</a></li>
+
+###### Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+### General
 What is a search algorithm
 What is a linear search
 What is a binary search
@@ -23,8 +24,9 @@ You are tasked to come up with solutions for the tasks below yourself to meet wi
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
+
+### Requirements
+#### General
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
@@ -49,7 +51,8 @@ sqrt n -> O(sqrt(n))
 log(n) -> O(log(n))
 n * log(n) -> O(nlog(n))
 …
-Tasks
+
+# Tasks
 ### 0. Linear search
 mandatory
 Write a function that searches for a value in an array of integers using the Linear search algorithm
